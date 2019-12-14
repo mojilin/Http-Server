@@ -1,9 +1,0 @@
-/.vscode
-
-*
-!*.c
-!*.h
-!*.cpp
-!.gitignore
-
-
