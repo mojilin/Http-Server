@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chang/Downloads/zaver-master/tests/list_test.c
+list.h
+-
+dbg.h
+-
+
+src/dbg.h
+stdio.h
+-
+errno.h
+-
+string.h
+-
+stdlib.h
+-
+
+src/list.h
+

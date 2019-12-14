@@ -1,0 +1,1 @@
+/usr/bin/cc  -g -O2 -Wall -Werror -Wextra -pthread -DNDEBUG   CMakeFiles/list_test.dir/list_test.c.o  -o list_test -rdynamic 
