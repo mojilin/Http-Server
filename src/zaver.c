@@ -78,16 +78,38 @@ int main(int argc, char* argv[]) {
         return 0;
     }
 
-    /*
-    * initialize listening socket
-    */
-    int listenfd;
     struct sockaddr_in clientaddr;
     // initialize clientaddr and inlen to solve "accept Invalid argument" bug
     socklen_t inlen = 1;
     memset(&clientaddr, 0, sizeof(struct sockaddr_in));  
-    
-    listenfd = open_listenfd(cf.port);
+
+    if (cf.port <= 0) {
+        printf("invalid port number");
+        return -1;
+    }
+
+    int listenfd, optval=1;
+    struct sockaddr_in serveraddr;
+    if ((listenfd = socket(AF_INET, SOCK_STREAM, 0)) < 0){
+        printf("listen error");
+	    return -1;
+    }
+    if (setsockopt(listenfd, SOL_SOCKET, SO_REUSEADDR, (const void *)&optval , sizeof(int)) < 0){
+        printf("listen error");
+	    return -1;
+    }
+    bzero((char *) &serveraddr, sizeof(serveraddr));
+    serveraddr.sin_family = AF_INET; 
+    serveraddr.sin_addr.s_addr = htonl(INADDR_ANY); 
+    serveraddr.sin_port = htons((unsigned short)cf.port); 
+    if (bind(listenfd, (struct sockaddr *)&serveraddr, sizeof(serveraddr)) < 0){
+        printf("bind error");
+	    return -1;
+    }
+    if (listen(listenfd, LISTENQ) < 0){
+        printf("lsiten error");
+	    return -1;
+    }
     rc = make_socket_non_blocking(listenfd);
     check(rc == 0, "make_socket_non_blocking");
 
