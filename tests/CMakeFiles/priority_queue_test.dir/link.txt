@@ -1,1 +1,0 @@
-/usr/bin/cc  -g -O2 -Wall -Werror -Wextra -pthread -DNDEBUG   CMakeFiles/priority_queue_test.dir/priority_queue_test.c.o CMakeFiles/priority_queue_test.dir/__/src/priority_queue.c.o  -o priority_queue_test -rdynamic 

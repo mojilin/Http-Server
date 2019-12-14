@@ -1,1 +1,0 @@
-/usr/bin/cc  -g -O2 -Wall -Werror -Wextra -pthread -DNDEBUG   CMakeFiles/thread_pool_test.dir/thread_pool_test.c.o CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.o  -o thread_pool_test -rdynamic 
