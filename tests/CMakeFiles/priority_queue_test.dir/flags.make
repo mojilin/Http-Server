@@ -6,5 +6,5 @@ C_FLAGS = -g -O2 -Wall -Werror -Wextra -pthread -DNDEBUG
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/chang/Downloads/zaver-master/src 
+C_INCLUDES = -I/home/chang/Http-Server/src 
 

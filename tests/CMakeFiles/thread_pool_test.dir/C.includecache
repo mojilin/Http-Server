@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chang/Downloads/zaver-master/src/dbg.h
+/home/chang/Http-Server/src/dbg.h
 stdio.h
 -
 errno.h
@@ -16,11 +16,11 @@ string.h
 stdlib.h
 -
 
-/home/chang/Downloads/zaver-master/src/threadpool.c
+/home/chang/Http-Server/src/threadpool.c
 threadpool.h
-/home/chang/Downloads/zaver-master/src/threadpool.h
+/home/chang/Http-Server/src/threadpool.h
 
-/home/chang/Downloads/zaver-master/src/threadpool.h
+/home/chang/Http-Server/src/threadpool.h
 stdlib.h
 -
 unistd.h
@@ -30,9 +30,9 @@ pthread.h
 stdint.h
 -
 dbg.h
-/home/chang/Downloads/zaver-master/src/dbg.h
+/home/chang/Http-Server/src/dbg.h
 
-/home/chang/Downloads/zaver-master/tests/thread_pool_test.c
+/home/chang/Http-Server/tests/thread_pool_test.c
 threadpool.h
 -
 

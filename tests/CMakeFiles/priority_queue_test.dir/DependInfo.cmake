@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/chang/Downloads/zaver-master/src/priority_queue.c" "/home/chang/Downloads/zaver-master/tests/CMakeFiles/priority_queue_test.dir/__/src/priority_queue.c.o"
-  "/home/chang/Downloads/zaver-master/tests/priority_queue_test.c" "/home/chang/Downloads/zaver-master/tests/CMakeFiles/priority_queue_test.dir/priority_queue_test.c.o"
+  "/home/chang/Http-Server/src/priority_queue.c" "/home/chang/Http-Server/tests/CMakeFiles/priority_queue_test.dir/__/src/priority_queue.c.o"
+  "/home/chang/Http-Server/tests/priority_queue_test.c" "/home/chang/Http-Server/tests/CMakeFiles/priority_queue_test.dir/priority_queue_test.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

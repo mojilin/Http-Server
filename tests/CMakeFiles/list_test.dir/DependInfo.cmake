@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/chang/Downloads/zaver-master/tests/list_test.c" "/home/chang/Downloads/zaver-master/tests/CMakeFiles/list_test.dir/list_test.c.o"
+  "/home/chang/Http-Server/tests/list_test.c" "/home/chang/Http-Server/tests/CMakeFiles/list_test.dir/list_test.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

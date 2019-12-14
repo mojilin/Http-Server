@@ -1,4 +1,4 @@
-# Install script for directory: /home/chang/Downloads/zaver-master/tests
+# Install script for directory: /home/chang/Http-Server/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

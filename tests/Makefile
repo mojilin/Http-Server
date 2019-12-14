@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chang/Downloads/zaver-master
+CMAKE_SOURCE_DIR = /home/chang/Http-Server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chang/Downloads/zaver-master
+CMAKE_BINARY_DIR = /home/chang/Http-Server
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chang/Downloads/zaver-master && $(CMAKE_COMMAND) -E cmake_progress_start /home/chang/Downloads/zaver-master/CMakeFiles /home/chang/Downloads/zaver-master/tests/CMakeFiles/progress.marks
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chang/Downloads/zaver-master/CMakeFiles 0
+	cd /home/chang/Http-Server && $(CMAKE_COMMAND) -E cmake_progress_start /home/chang/Http-Server/CMakeFiles /home/chang/Http-Server/tests/CMakeFiles/progress.marks
+	cd /home/chang/Http-Server && $(MAKE) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chang/Http-Server/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
+	cd /home/chang/Http-Server && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/chang/Http-Server && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/chang/Http-Server && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chang/Downloads/zaver-master && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chang/Http-Server && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/list_test.dir/rule:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/list_test.dir/rule
+	cd /home/chang/Http-Server && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/list_test.dir/rule
 .PHONY : tests/CMakeFiles/list_test.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ list_test: tests/CMakeFiles/list_test.dir/rule
 
 # fast build rule for target.
 list_test/fast:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f tests/CMakeFiles/list_test.dir/build.make tests/CMakeFiles/list_test.dir/build
+	cd /home/chang/Http-Server && $(MAKE) -f tests/CMakeFiles/list_test.dir/build.make tests/CMakeFiles/list_test.dir/build
 .PHONY : list_test/fast
 
 # Convenience name for target.
 tests/CMakeFiles/priority_queue_test.dir/rule:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/priority_queue_test.dir/rule
+	cd /home/chang/Http-Server && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/priority_queue_test.dir/rule
 .PHONY : tests/CMakeFiles/priority_queue_test.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ priority_queue_test: tests/CMakeFiles/priority_queue_test.dir/rule
 
 # fast build rule for target.
 priority_queue_test/fast:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f tests/CMakeFiles/priority_queue_test.dir/build.make tests/CMakeFiles/priority_queue_test.dir/build
+	cd /home/chang/Http-Server && $(MAKE) -f tests/CMakeFiles/priority_queue_test.dir/build.make tests/CMakeFiles/priority_queue_test.dir/build
 .PHONY : priority_queue_test/fast
 
 # Convenience name for target.
 tests/CMakeFiles/thread_pool_test.dir/rule:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/thread_pool_test.dir/rule
+	cd /home/chang/Http-Server && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/thread_pool_test.dir/rule
 .PHONY : tests/CMakeFiles/thread_pool_test.dir/rule
 
 # Convenience name for target.
@@ -152,7 +152,7 @@ thread_pool_test: tests/CMakeFiles/thread_pool_test.dir/rule
 
 # fast build rule for target.
 thread_pool_test/fast:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f tests/CMakeFiles/thread_pool_test.dir/build.make tests/CMakeFiles/thread_pool_test.dir/build
+	cd /home/chang/Http-Server && $(MAKE) -f tests/CMakeFiles/thread_pool_test.dir/build.make tests/CMakeFiles/thread_pool_test.dir/build
 .PHONY : thread_pool_test/fast
 
 __/src/priority_queue.o: __/src/priority_queue.c.o
@@ -161,7 +161,7 @@ __/src/priority_queue.o: __/src/priority_queue.c.o
 
 # target to build an object file
 __/src/priority_queue.c.o:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f tests/CMakeFiles/priority_queue_test.dir/build.make tests/CMakeFiles/priority_queue_test.dir/__/src/priority_queue.c.o
+	cd /home/chang/Http-Server && $(MAKE) -f tests/CMakeFiles/priority_queue_test.dir/build.make tests/CMakeFiles/priority_queue_test.dir/__/src/priority_queue.c.o
 .PHONY : __/src/priority_queue.c.o
 
 __/src/priority_queue.i: __/src/priority_queue.c.i
@@ -170,7 +170,7 @@ __/src/priority_queue.i: __/src/priority_queue.c.i
 
 # target to preprocess a source file
 __/src/priority_queue.c.i:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f tests/CMakeFiles/priority_queue_test.dir/build.make tests/CMakeFiles/priority_queue_test.dir/__/src/priority_queue.c.i
+	cd /home/chang/Http-Server && $(MAKE) -f tests/CMakeFiles/priority_queue_test.dir/build.make tests/CMakeFiles/priority_queue_test.dir/__/src/priority_queue.c.i
 .PHONY : __/src/priority_queue.c.i
 
 __/src/priority_queue.s: __/src/priority_queue.c.s
@@ -179,7 +179,7 @@ __/src/priority_queue.s: __/src/priority_queue.c.s
 
 # target to generate assembly for a file
 __/src/priority_queue.c.s:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f tests/CMakeFiles/priority_queue_test.dir/build.make tests/CMakeFiles/priority_queue_test.dir/__/src/priority_queue.c.s
+	cd /home/chang/Http-Server && $(MAKE) -f tests/CMakeFiles/priority_queue_test.dir/build.make tests/CMakeFiles/priority_queue_test.dir/__/src/priority_queue.c.s
 .PHONY : __/src/priority_queue.c.s
 
 __/src/threadpool.o: __/src/threadpool.c.o
@@ -188,7 +188,7 @@ __/src/threadpool.o: __/src/threadpool.c.o
 
 # target to build an object file
 __/src/threadpool.c.o:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f tests/CMakeFiles/thread_pool_test.dir/build.make tests/CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.o
+	cd /home/chang/Http-Server && $(MAKE) -f tests/CMakeFiles/thread_pool_test.dir/build.make tests/CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.o
 .PHONY : __/src/threadpool.c.o
 
 __/src/threadpool.i: __/src/threadpool.c.i
@@ -197,7 +197,7 @@ __/src/threadpool.i: __/src/threadpool.c.i
 
 # target to preprocess a source file
 __/src/threadpool.c.i:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f tests/CMakeFiles/thread_pool_test.dir/build.make tests/CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.i
+	cd /home/chang/Http-Server && $(MAKE) -f tests/CMakeFiles/thread_pool_test.dir/build.make tests/CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.i
 .PHONY : __/src/threadpool.c.i
 
 __/src/threadpool.s: __/src/threadpool.c.s
@@ -206,7 +206,7 @@ __/src/threadpool.s: __/src/threadpool.c.s
 
 # target to generate assembly for a file
 __/src/threadpool.c.s:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f tests/CMakeFiles/thread_pool_test.dir/build.make tests/CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.s
+	cd /home/chang/Http-Server && $(MAKE) -f tests/CMakeFiles/thread_pool_test.dir/build.make tests/CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.s
 .PHONY : __/src/threadpool.c.s
 
 list_test.o: list_test.c.o
@@ -215,7 +215,7 @@ list_test.o: list_test.c.o
 
 # target to build an object file
 list_test.c.o:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f tests/CMakeFiles/list_test.dir/build.make tests/CMakeFiles/list_test.dir/list_test.c.o
+	cd /home/chang/Http-Server && $(MAKE) -f tests/CMakeFiles/list_test.dir/build.make tests/CMakeFiles/list_test.dir/list_test.c.o
 .PHONY : list_test.c.o
 
 list_test.i: list_test.c.i
@@ -224,7 +224,7 @@ list_test.i: list_test.c.i
 
 # target to preprocess a source file
 list_test.c.i:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f tests/CMakeFiles/list_test.dir/build.make tests/CMakeFiles/list_test.dir/list_test.c.i
+	cd /home/chang/Http-Server && $(MAKE) -f tests/CMakeFiles/list_test.dir/build.make tests/CMakeFiles/list_test.dir/list_test.c.i
 .PHONY : list_test.c.i
 
 list_test.s: list_test.c.s
@@ -233,7 +233,7 @@ list_test.s: list_test.c.s
 
 # target to generate assembly for a file
 list_test.c.s:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f tests/CMakeFiles/list_test.dir/build.make tests/CMakeFiles/list_test.dir/list_test.c.s
+	cd /home/chang/Http-Server && $(MAKE) -f tests/CMakeFiles/list_test.dir/build.make tests/CMakeFiles/list_test.dir/list_test.c.s
 .PHONY : list_test.c.s
 
 priority_queue_test.o: priority_queue_test.c.o
@@ -242,7 +242,7 @@ priority_queue_test.o: priority_queue_test.c.o
 
 # target to build an object file
 priority_queue_test.c.o:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f tests/CMakeFiles/priority_queue_test.dir/build.make tests/CMakeFiles/priority_queue_test.dir/priority_queue_test.c.o
+	cd /home/chang/Http-Server && $(MAKE) -f tests/CMakeFiles/priority_queue_test.dir/build.make tests/CMakeFiles/priority_queue_test.dir/priority_queue_test.c.o
 .PHONY : priority_queue_test.c.o
 
 priority_queue_test.i: priority_queue_test.c.i
@@ -251,7 +251,7 @@ priority_queue_test.i: priority_queue_test.c.i
 
 # target to preprocess a source file
 priority_queue_test.c.i:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f tests/CMakeFiles/priority_queue_test.dir/build.make tests/CMakeFiles/priority_queue_test.dir/priority_queue_test.c.i
+	cd /home/chang/Http-Server && $(MAKE) -f tests/CMakeFiles/priority_queue_test.dir/build.make tests/CMakeFiles/priority_queue_test.dir/priority_queue_test.c.i
 .PHONY : priority_queue_test.c.i
 
 priority_queue_test.s: priority_queue_test.c.s
@@ -260,7 +260,7 @@ priority_queue_test.s: priority_queue_test.c.s
 
 # target to generate assembly for a file
 priority_queue_test.c.s:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f tests/CMakeFiles/priority_queue_test.dir/build.make tests/CMakeFiles/priority_queue_test.dir/priority_queue_test.c.s
+	cd /home/chang/Http-Server && $(MAKE) -f tests/CMakeFiles/priority_queue_test.dir/build.make tests/CMakeFiles/priority_queue_test.dir/priority_queue_test.c.s
 .PHONY : priority_queue_test.c.s
 
 thread_pool_test.o: thread_pool_test.c.o
@@ -269,7 +269,7 @@ thread_pool_test.o: thread_pool_test.c.o
 
 # target to build an object file
 thread_pool_test.c.o:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f tests/CMakeFiles/thread_pool_test.dir/build.make tests/CMakeFiles/thread_pool_test.dir/thread_pool_test.c.o
+	cd /home/chang/Http-Server && $(MAKE) -f tests/CMakeFiles/thread_pool_test.dir/build.make tests/CMakeFiles/thread_pool_test.dir/thread_pool_test.c.o
 .PHONY : thread_pool_test.c.o
 
 thread_pool_test.i: thread_pool_test.c.i
@@ -278,7 +278,7 @@ thread_pool_test.i: thread_pool_test.c.i
 
 # target to preprocess a source file
 thread_pool_test.c.i:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f tests/CMakeFiles/thread_pool_test.dir/build.make tests/CMakeFiles/thread_pool_test.dir/thread_pool_test.c.i
+	cd /home/chang/Http-Server && $(MAKE) -f tests/CMakeFiles/thread_pool_test.dir/build.make tests/CMakeFiles/thread_pool_test.dir/thread_pool_test.c.i
 .PHONY : thread_pool_test.c.i
 
 thread_pool_test.s: thread_pool_test.c.s
@@ -287,7 +287,7 @@ thread_pool_test.s: thread_pool_test.c.s
 
 # target to generate assembly for a file
 thread_pool_test.c.s:
-	cd /home/chang/Downloads/zaver-master && $(MAKE) -f tests/CMakeFiles/thread_pool_test.dir/build.make tests/CMakeFiles/thread_pool_test.dir/thread_pool_test.c.s
+	cd /home/chang/Http-Server && $(MAKE) -f tests/CMakeFiles/thread_pool_test.dir/build.make tests/CMakeFiles/thread_pool_test.dir/thread_pool_test.c.s
 .PHONY : thread_pool_test.c.s
 
 # Help Target
@@ -327,6 +327,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chang/Downloads/zaver-master && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chang/Http-Server && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

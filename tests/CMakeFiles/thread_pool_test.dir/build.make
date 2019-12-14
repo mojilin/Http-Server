@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chang/Downloads/zaver-master
+CMAKE_SOURCE_DIR = /home/chang/Http-Server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chang/Downloads/zaver-master
+CMAKE_BINARY_DIR = /home/chang/Http-Server
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/thread_pool_test.dir/depend.make
@@ -59,16 +59,16 @@ include tests/CMakeFiles/thread_pool_test.dir/flags.make
 
 tests/CMakeFiles/thread_pool_test.dir/thread_pool_test.c.o: tests/CMakeFiles/thread_pool_test.dir/flags.make
 tests/CMakeFiles/thread_pool_test.dir/thread_pool_test.c.o: tests/thread_pool_test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chang/Downloads/zaver-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/thread_pool_test.dir/thread_pool_test.c.o"
-	cd /home/chang/Downloads/zaver-master/tests && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/thread_pool_test.dir/thread_pool_test.c.o   -c /home/chang/Downloads/zaver-master/tests/thread_pool_test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chang/Http-Server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/thread_pool_test.dir/thread_pool_test.c.o"
+	cd /home/chang/Http-Server/tests && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/thread_pool_test.dir/thread_pool_test.c.o   -c /home/chang/Http-Server/tests/thread_pool_test.c
 
 tests/CMakeFiles/thread_pool_test.dir/thread_pool_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/thread_pool_test.dir/thread_pool_test.c.i"
-	cd /home/chang/Downloads/zaver-master/tests && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chang/Downloads/zaver-master/tests/thread_pool_test.c > CMakeFiles/thread_pool_test.dir/thread_pool_test.c.i
+	cd /home/chang/Http-Server/tests && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chang/Http-Server/tests/thread_pool_test.c > CMakeFiles/thread_pool_test.dir/thread_pool_test.c.i
 
 tests/CMakeFiles/thread_pool_test.dir/thread_pool_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/thread_pool_test.dir/thread_pool_test.c.s"
-	cd /home/chang/Downloads/zaver-master/tests && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chang/Downloads/zaver-master/tests/thread_pool_test.c -o CMakeFiles/thread_pool_test.dir/thread_pool_test.c.s
+	cd /home/chang/Http-Server/tests && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chang/Http-Server/tests/thread_pool_test.c -o CMakeFiles/thread_pool_test.dir/thread_pool_test.c.s
 
 tests/CMakeFiles/thread_pool_test.dir/thread_pool_test.c.o.requires:
 
@@ -83,16 +83,16 @@ tests/CMakeFiles/thread_pool_test.dir/thread_pool_test.c.o.provides.build: tests
 
 tests/CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.o: tests/CMakeFiles/thread_pool_test.dir/flags.make
 tests/CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.o: src/threadpool.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chang/Downloads/zaver-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object tests/CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.o"
-	cd /home/chang/Downloads/zaver-master/tests && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.o   -c /home/chang/Downloads/zaver-master/src/threadpool.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chang/Http-Server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object tests/CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.o"
+	cd /home/chang/Http-Server/tests && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.o   -c /home/chang/Http-Server/src/threadpool.c
 
 tests/CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.i"
-	cd /home/chang/Downloads/zaver-master/tests && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chang/Downloads/zaver-master/src/threadpool.c > CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.i
+	cd /home/chang/Http-Server/tests && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chang/Http-Server/src/threadpool.c > CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.i
 
 tests/CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.s"
-	cd /home/chang/Downloads/zaver-master/tests && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chang/Downloads/zaver-master/src/threadpool.c -o CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.s
+	cd /home/chang/Http-Server/tests && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chang/Http-Server/src/threadpool.c -o CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.s
 
 tests/CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.o.requires:
 
@@ -117,8 +117,8 @@ tests/thread_pool_test: tests/CMakeFiles/thread_pool_test.dir/thread_pool_test.c
 tests/thread_pool_test: tests/CMakeFiles/thread_pool_test.dir/__/src/threadpool.c.o
 tests/thread_pool_test: tests/CMakeFiles/thread_pool_test.dir/build.make
 tests/thread_pool_test: tests/CMakeFiles/thread_pool_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chang/Downloads/zaver-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable thread_pool_test"
-	cd /home/chang/Downloads/zaver-master/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/thread_pool_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chang/Http-Server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable thread_pool_test"
+	cd /home/chang/Http-Server/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/thread_pool_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/thread_pool_test.dir/build: tests/thread_pool_test
@@ -131,10 +131,10 @@ tests/CMakeFiles/thread_pool_test.dir/requires: tests/CMakeFiles/thread_pool_tes
 .PHONY : tests/CMakeFiles/thread_pool_test.dir/requires
 
 tests/CMakeFiles/thread_pool_test.dir/clean:
-	cd /home/chang/Downloads/zaver-master/tests && $(CMAKE_COMMAND) -P CMakeFiles/thread_pool_test.dir/cmake_clean.cmake
+	cd /home/chang/Http-Server/tests && $(CMAKE_COMMAND) -P CMakeFiles/thread_pool_test.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/thread_pool_test.dir/clean
 
 tests/CMakeFiles/thread_pool_test.dir/depend:
-	cd /home/chang/Downloads/zaver-master && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chang/Downloads/zaver-master /home/chang/Downloads/zaver-master/tests /home/chang/Downloads/zaver-master /home/chang/Downloads/zaver-master/tests /home/chang/Downloads/zaver-master/tests/CMakeFiles/thread_pool_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chang/Http-Server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chang/Http-Server /home/chang/Http-Server/tests /home/chang/Http-Server /home/chang/Http-Server/tests /home/chang/Http-Server/tests/CMakeFiles/thread_pool_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/thread_pool_test.dir/depend
 

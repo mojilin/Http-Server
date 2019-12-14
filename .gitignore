@@ -1,0 +1,8 @@
+/.vscode
+
+*
+tests/
+!*.c
+!*.cpp
+!*.h
+!.gitignore
