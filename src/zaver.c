@@ -157,7 +157,6 @@ int main(int argc, char* argv[]) {
             
             if (listenfd == fd) {
                 /* we hava one or more incoming connections */
-
                 int infd;
                 while(1) {
                     infd = accept(listenfd, (struct sockaddr *)&clientaddr, &inlen);
@@ -188,7 +187,6 @@ int main(int argc, char* argv[]) {
                     zv_epoll_add(epfd, infd, &event);
                     zv_add_timer(request, TIMEOUT_DEFAULT, zv_http_close_conn);
                 }   // end of while of accept
-
             } else {
                 if ((events[i].events & EPOLLERR) ||
                     (events[i].events & EPOLLHUP) ||
@@ -202,7 +200,7 @@ int main(int argc, char* argv[]) {
                 rc = threadpool_add(tp, do_request, events[i].data.ptr);
                 check(rc == 0, "threadpool_add");
 
-                do_request(events[i].data.ptr);
+                //do_request(events[i].data.ptr);
             }
         }   //end of for
     }   // end of while(1)
