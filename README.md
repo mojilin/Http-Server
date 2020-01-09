@@ -36,8 +36,3 @@ cd .. && ./build/zaver -c zaver.conf
 * other HTTP/1.1 features
 * memory pool
 * WebDAV?
-
-## more details
-
-https://zyearn.github.io/blog/2015/05/16/how-to-write-a-server/
-
